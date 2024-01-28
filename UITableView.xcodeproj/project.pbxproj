@@ -54,14 +54,38 @@
 		3273D0132B664FE9009803AD /* UITableView */ = {
 			isa = PBXGroup;
 			children = (
+				3273D0282B665A5B009803AD /* App */,
+				3273D0292B665A62009803AD /* Sources */,
+				3273D02A2B665A69009803AD /* Resources */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		3273D0282B665A5B009803AD /* App */ = {
+			isa = PBXGroup;
+			children = (
 				3273D0142B664FE9009803AD /* AppDelegate.swift */,
 				3273D0162B664FE9009803AD /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3273D0292B665A62009803AD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
 				3273D0182B664FE9009803AD /* ViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		3273D02A2B665A69009803AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				3273D01D2B664FEB009803AD /* Assets.xcassets */,
 				3273D01F2B664FEB009803AD /* LaunchScreen.storyboard */,
 				3273D0222B664FEB009803AD /* Info.plist */,
 			);
-			path = UITableView;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,7 +306,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7S5KXF68WA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UITableView/Info.plist;
+				INFOPLIST_FILE = UITableView/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -313,7 +337,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7S5KXF68WA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UITableView/Info.plist;
+				INFOPLIST_FILE = UITableView/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
